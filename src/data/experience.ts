@@ -18,7 +18,7 @@ export const experience: ExperienceItem[] = [
       "Suivi du traitement du courrier par service utilisateur et par période définie.",
     ],
     tags: ["Kafka", "Debezium","Oracle","LogMiner", "PostgreSQL", "Grafana", "LDAP","SMTP"],
-    image: "", // "/images/experience/credit-foncier.jpg" TODO A mettre la photo de l'architecture du systeme
+    image: "/images/experience/cfc.jpeg", // "/images/experience/credit-foncier.jpg" TODO A mettre la photo de l'architecture du systeme
   },
 
   {

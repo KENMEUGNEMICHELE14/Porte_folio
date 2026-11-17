@@ -11,56 +11,77 @@ export const skillGroups: SkillGroup[] = [
     title: "Data & IA",
     items: [
       { name: "Python", icon: "python/python-original" },
-      { name: "Data science" },
-      { name: "Machine Learning" },
-      { name: "MATLAB", icon: "matlab/matlab-original" },
-    ],
+      { name: "Pandas", icon: "pandas/pandas-original" },
+      { name: "Numpy", icon: "numpy/numpy-original" },
+      { name: "Scikit-Learn", icon: "scikitlearn/scikitlearn-original" },
+      { name: "Matplotlib", icon: "matplotlib/matplotlib-original" },
+      { name: "Seaborn", icon: "panda/panda-original" },
+      ],
   },
+
+
   {
-    title: "Données & systèmes",
-    items: [
-      { name: "Apache Kafka", icon: "apachekafka/apachekafka-original" },
-      { name: "Debezium" },
-      { name: "PostgreSQL", icon: "postgresql/postgresql-original" },
-      { name: "Oracle", icon: "oracle/oracle-original" },
-      { name: "Grafana", icon: "grafana/grafana-original" },
-      { name: "LDAP" },
-      { name: "JSON & API" },
-    ],
-  },
-  {
-    title: "Électronique & IoT",
-    items: [
-      { name: "Arduino", icon: "arduino/arduino-original" },
-      { name: "SIM808 (GPS/GSM)" },
-      { name: "LoRa (SX1276)" },
-      { name: "Maintenance informatique" },
-    ],
-  },
-  {
-    title: "Langages",
-    items: [
-      // TODO
-    ],
-  },
-  {
-    title: "Web & mobile",
-    items: [
-      // TODO
-    ],
-  },
-  {
-    title: "Soft skills",
-    items: [
-      { name: "Travail d'équipe" },
-      { name: "Gestion de projet" },
-      // TODO
-    ],
-  },
+  title: "Développement & Frameworks",
+  items: [
+    { name: "Python (Flask)", icon: "flask/flask-original" },
+    { name: "Java (Spring Boot)", icon: "spring/spring-original" },
+    { name: "Next.js", icon: "nextjs/nextjs-original" },
+    { name: "HTML", icon: "html5/html5-original" },
+  
+  ],
+},
+
+
+
+{
+  title: "DevOps & Infrastructure",
+  items: [
+    { name: "Docker", icon: "docker/docker-original" },
+    { name: "Linux", icon: "linux/linux-original" },
+    { name: "Git / GitHub", icon: "git/git-original" },
+    { name: "Apache Kafka", icon: "apachekafka/apachekafka-original" },
+    { name: "Debezium" },
+    { name: "Grafana", icon: "grafana/grafana-original" },
+  ],
+},
+
+
+ {
+  title: "Électronique & IoT",
+  items: [
+    { name: "Arduino", icon: "arduino/arduino-original" },
+    { name: "Proteus" },
+  ],
+},
+
+{
+  title: "Soft Skills",
+  items: [
+    { name: "Autonomie" },
+    { name: "Rigueur" },
+    { name: "Esprit d'équipe" },
+    { name: "Communication" },
+  ],
+},
+
+
+ {
+  title: "Environnements & Outils",
+  items: [
+    { name: "VS Code", icon: "vscode/vscode-original" },
+    { name: "IntelliJ IDEA", icon: "intellij/intellij-original" },
+    { name: "Eclipse", icon: "eclipse/eclipse-original" },
+    { name: "Jupyter Notebook", icon: "jupyter/jupyter-original" },
+    { name: "Swagger", icon: "swagger/swagger-original" },
+  ],
+},
+
+  
 ];
 
 /** Langues parlées — TODO */
 export const languages: { name: string; level: string }[] = [
   { name: "Français", level: "Natif" },
-   { name: "Anglais", level: "…" },
+   { name: "Anglais", level: "Intermédiaire" },
+   {name : "Allemand", level: "A1"}
 ];
