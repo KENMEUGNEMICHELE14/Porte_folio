@@ -53,7 +53,7 @@ export interface Certification {
   verifyUrl?: string;
 }
 
-export type ProjectCategory = "IoT & Électronique" | "Data & IA" | "Full-Stack";
+export type ProjectCategory = "IoT & Électronique" | "Data & IA" | "Full-Stack"|"Front-end";
 
 export interface Project {
   id: string;

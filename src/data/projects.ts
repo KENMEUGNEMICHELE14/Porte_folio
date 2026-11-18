@@ -91,13 +91,14 @@ export const projects: Project[] = [
   },
   {
     id: "getcad",
-    title: "Site web GETCAD",
-    category: "Full-Stack",
-    status: "En cours",
-    description: "Site web pour l'entreprise GETCAD BTP, une entrprise dans le génie civil.",
-    tags: ["Site web"],
-    image: [""], // "/images/projects/getcad.jpg"
-    github: "",
-    demo: "",
+    title: "Site web GETCAD BTP",
+    category: "Front-end",
+    status: "Terminé",
+    description: "Site vitrine responsive pour GETCAD BTP, une entreprise de construction et de génie civil à Yaoundé : présentation des services, galerie de 13 réalisations avec photos, formulaire de contact et lien WhatsApp.",
+    tags: ["HTML", "CSS", "JavaScript", "Vercel", "Responsive"],
+    image: ["/images/projects/Getcad/image_collee.png"],
+    github: "https://github.com/KENMEUGNEMICHELE14/GetCadVitrine",
+    demo: "https://getcadvitrinebtp-iota.vercel.app",
   },
 ];
+
